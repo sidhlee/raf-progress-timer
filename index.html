@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css' />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar shadow">
+      <div class="wrapper">
+        <div id="search"><i class="fas fa-search"></i></div>
+        <div id="title">
+          <h1>TIMER</h1>
+          <p>WITH PROGRESS BAR</p>
+        </div>
+        <div id="menu">
+          <div id="menu_burger"><i class="fas fa-bars"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="display">
+      <p id="remaining">
+        <span class="minute">00</span><span class="colon">:</span><span class="ms">00</span>
+      </p>
+    </div>
+    <div id="progress-bar">
+      <div id="progress-bar-inner"></div>
+    </div>
+    <div class="control">
+      <button id="play"><i class="far fa-play-circle"></i></button>
+      <button id="pause"><i class="far fa-pause-circle"></i></button>
+      <button id="stop"><i class="far fa-stop-circle"></i></button>
+    </div>
+    <div class="credit">
+      <a href="https://github.com/toypiano" rel="noopener noreferrer" target="_blank">
+        by toypiano
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
